@@ -45,6 +45,7 @@ func GetAllUsers(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(usersList)               // Encoding the JSON response
 }
 
+// Function to get User data based on ID
 func GetUser(w http.ResponseWriter, r *http.Request) {
 	id := chi.URLParam(r, "id") // Getting the user id from API end point (URL Params)
 	user, exists := users[id]   // Getting user data
