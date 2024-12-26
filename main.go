@@ -25,6 +25,8 @@ func main() {
 		r.Post("/create_user", handlers.CreateUser)   // User creation API
 		r.Get("/get_all_users", handlers.GetAllUsers) // Get all users with all the details
 		r.Get("/{id}", handlers.GetUser)              // Get user details based on the user ID
+		r.Put("/update_user", handlers.UpdateUser)    // Updates user details
+		r.Delete("/delete_user", handlers.DeleteUser) // Deletes the user data
 	})
 
 	// Starting the server on Localhost

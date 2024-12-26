@@ -58,3 +58,34 @@ func GetUser(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(user)
 }
+
+// UpdateUser handles PUT /users/{id}
+func UpdateUser(w http.ResponseWriter, r *http.Request) {
+	id := chi.URLParam(r, "id")
+	var updatedUser models.User
+	if err := json.NewDecoder(r.Body).Decode(&updatedUser); err != nil {
+		http.Error(w, "Invalid input", http.StatusBadRequest)
+		return
+	}
+	user, exists := users[id]
+	if !exists {
+		http.Error(w, "User not found", http.StatusNotFound)
+		return
+	}
+	user.Name = updatedUser.Name
+	user.Email = updatedUser.Email
+	users[id] = user
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(user)
+}
+
+// DeleteUser handles DELETE /users/{id}
+func DeleteUser(w http.ResponseWriter, r *http.Request) {
+	id := chi.URLParam(r, "id")
+	if _, exists := users[id]; !exists {
+		http.Error(w, "User not found", http.StatusNotFound)
+		return
+	}
+	delete(users, id)
+	w.WriteHeader(http.StatusNoContent)
+}
