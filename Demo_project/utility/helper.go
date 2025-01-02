@@ -1,20 +1,24 @@
-// Contains helper function for various functions
 package utility
 
+import (
+	"time"
+	"golang.org/x/crypto/bcrypt"
+)
 
-type str_map map[string]interface{} 
+func GetJoining() (string){
 
-// Function to return map with user message and data entered by user.
-func GetPrompt(prompt string , data ...interface{} ) (str_map){
-	promptMap := make(str_map)
-
-	promptMap["message"] = prompt
-
-	if len(data) > 0 { 
-		promptMap["data"] = data
-	}
-
-	return promptMap
+	curr_time := time.Now()
+	Readable_time := curr_time.Format(("2006-January-02"))
+	return Readable_time
 }
 
+func HashPassword(password string) (string, error){
+	hashbytes, err := bcrypt.GenerateFromPassword([]byte(password), 14)
+	return string(hashbytes), err
+}
 
+func CheckPassword(password, hashpassword string) bool {
+	err := bcrypt.CompareHashAndPassword([]byte(hashpassword), []byte(password))
+
+	return err == nil 
+}

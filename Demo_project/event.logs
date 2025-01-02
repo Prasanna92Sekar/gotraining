@@ -1,0 +1,155 @@
+INFO: 2024/12/28 19:42:24 main.go:13: Starting application
+INFO: 2024/12/28 19:42:24 main.go:15: DB Initiated
+INFO: 2024/12/28 19:42:55 user.go:25: Working with create user function
+INFO: 2024/12/28 19:42:55 user.go:40: User created successfully
+INFO: 2024/12/28 19:43:47 main.go:13: Starting application
+INFO: 2024/12/28 19:43:47 main.go:15: DB Initiated
+INFO: 2024/12/28 19:44:02 user.go:25: Working with create user function
+INFO: 2024/12/28 19:44:02 user.go:40: User created successfully
+INFO: 2024/12/28 19:45:18 main.go:13: Starting application
+INFO: 2024/12/28 19:45:18 main.go:15: DB Initiated
+INFO: 2024/12/28 19:45:23 user.go:25: Working with create user function
+INFO: 2024/12/28 19:45:23 user.go:40: User created successfully
+INFO: 2024/12/28 21:23:12 main.go:13: Starting application
+INFO: 2024/12/28 21:23:12 main.go:15: DB Initiated
+INFO: 2024/12/28 21:23:38 event.go:29: Working with create event function
+INFO: 2024/12/28 21:23:38 event.go:45: Event created successfully
+INFO: 2024/12/28 21:23:46 event.go:29: Working with create event function
+INFO: 2024/12/28 21:23:46 event.go:45: Event created successfully
+INFO: 2024/12/28 21:24:31 user.go:25: Working with create user function
+INFO: 2024/12/28 21:24:31 user.go:40: User created successfully
+INFO: 2024/12/30 13:09:52 main.go:13: Starting application
+INFO: 2024/12/30 13:09:57 main.go:13: Starting application
+INFO: 2024/12/30 13:11:44 main.go:13: Starting application
+INFO: 2024/12/30 13:12:43 main.go:13: Starting application
+INFO: 2024/12/30 13:13:49 main.go:13: Starting application
+INFO: 2024/12/30 13:16:46 main.go:13: Starting application
+INFO: 2024/12/30 13:19:41 main.go:13: Starting application
+INFO: 2024/12/30 13:19:41 main.go:15: DB Initiated
+INFO: 2024/12/30 13:20:30 user.go:25: Working with create user function
+ERROR: 2024/12/30 13:20:30 user.go:35: Error in User creation
+INFO: 2024/12/30 13:20:46 user.go:25: Working with create user function
+ERROR: 2024/12/30 13:20:46 user.go:35: Error in User creation
+INFO: 2024/12/30 13:22:06 main.go:13: Starting application
+INFO: 2024/12/30 13:22:06 main.go:15: DB Initiated
+INFO: 2024/12/30 13:22:10 user.go:25: Working with create user function
+ERROR: 2024/12/30 13:22:10 user.go:35: Error in User creation
+INFO: 2024/12/30 13:24:47 main.go:13: Starting application
+INFO: 2024/12/30 13:24:47 main.go:15: DB Initiated
+INFO: 2024/12/30 13:24:49 user.go:25: Working with create user function
+ERROR: 2024/12/30 13:24:49 user.go:35: Error in User creation
+INFO: 2024/12/30 13:28:07 main.go:13: Starting application
+INFO: 2024/12/30 13:28:07 main.go:15: DB Initiated
+INFO: 2024/12/30 13:28:09 user.go:25: Working with create user function
+INFO: 2024/12/30 13:28:10 user.go:40: User created successfully
+INFO: 2024/12/30 13:29:22 main.go:13: Starting application
+INFO: 2024/12/30 13:29:22 main.go:15: DB Initiated
+INFO: 2024/12/30 13:29:43 user.go:25: Working with create user function
+INFO: 2024/12/30 13:29:44 user.go:40: User created successfully
+INFO: 2024/12/30 15:14:48 main.go:13: Starting application
+INFO: 2024/12/30 15:14:48 main.go:15: DB Initiated
+ERROR: 2024/12/30 15:15:49 user.go:51: Error while reading the input
+ERROR: 2024/12/30 15:16:20 user.go:86: User not found! no such table: users
+ERROR: 2024/12/30 15:16:24 user.go:86: User not found! no such table: users
+INFO: 2024/12/30 15:17:26 user.go:26: Working with create user function
+INFO: 2024/12/30 15:17:27 user.go:41: User created successfully
+ERROR: 2024/12/30 15:17:38 user.go:86: User not found! no such table: users
+ERROR: 2024/12/30 15:29:00 user.go:86: User not found! no such table: users
+ERROR: 2024/12/30 15:29:06 user.go:86: User not found! no such table: users
+INFO: 2025/01/02 13:27:49 main.go:13: Starting application
+INFO: 2025/01/02 13:27:49 main.go:15: DB Initiated
+INFO: 2025/01/02 13:28:23 event.go:32: Working with create event function
+INFO: 2025/01/02 13:28:23 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:28:23 event.go:49: Event created successfully
+INFO: 2025/01/02 13:30:13 main.go:13: Starting application
+INFO: 2025/01/02 13:30:13 main.go:15: DB Initiated
+INFO: 2025/01/02 13:30:16 event.go:32: Working with create event function
+INFO: 2025/01/02 13:30:16 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:30:16 event.go:52: Event created successfully
+INFO: 2025/01/02 13:31:13 main.go:13: Starting application
+INFO: 2025/01/02 13:31:13 main.go:15: DB Initiated
+INFO: 2025/01/02 13:31:16 event.go:32: Working with create event function
+INFO: 2025/01/02 13:31:16 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:32:35 event.go:32: Working with create event function
+INFO: 2025/01/02 13:32:35 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:32:36 event.go:53: Event created successfully
+INFO: 2025/01/02 13:33:07 main.go:13: Starting application
+INFO: 2025/01/02 13:33:07 main.go:15: DB Initiated
+INFO: 2025/01/02 13:33:13 event.go:32: Working with create event function
+INFO: 2025/01/02 13:33:13 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:34:43 main.go:13: Starting application
+INFO: 2025/01/02 13:34:43 main.go:15: DB Initiated
+INFO: 2025/01/02 13:34:45 event.go:32: Working with create event function
+INFO: 2025/01/02 13:34:45 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:34:48 event.go:32: Working with create event function
+INFO: 2025/01/02 13:34:48 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:48:00 main.go:13: Starting application
+INFO: 2025/01/02 13:48:00 main.go:15: DB Initiated
+INFO: 2025/01/02 13:48:05 event.go:32: Working with create event function
+INFO: 2025/01/02 13:48:05 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:48:07 event.go:32: Working with create event function
+INFO: 2025/01/02 13:48:07 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:48:44 main.go:13: Starting application
+INFO: 2025/01/02 13:48:44 main.go:15: DB Initiated
+INFO: 2025/01/02 13:48:51 event.go:32: Working with create event function
+INFO: 2025/01/02 13:48:51 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:48:52 event.go:32: Working with create event function
+INFO: 2025/01/02 13:48:52 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:48:52 event.go:32: Working with create event function
+INFO: 2025/01/02 13:48:52 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:50:12 main.go:13: Starting application
+INFO: 2025/01/02 13:50:12 main.go:15: DB Initiated
+INFO: 2025/01/02 13:50:14 event.go:32: Working with create event function
+INFO: 2025/01/02 13:50:14 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:50:52 main.go:13: Starting application
+INFO: 2025/01/02 13:50:52 main.go:15: DB Initiated
+INFO: 2025/01/02 13:50:55 event.go:32: Working with create event function
+INFO: 2025/01/02 13:50:55 event.go:38: Running validation on the input data
+INFO: 2025/01/02 13:54:10 main.go:13: Starting application
+INFO: 2025/01/02 13:54:10 main.go:15: DB Initiated
+INFO: 2025/01/02 13:54:14 event.go:31: Working with create event function
+INFO: 2025/01/02 13:54:14 event.go:37: Running validation on the input data
+INFO: 2025/01/02 13:57:19 main.go:13: Starting application
+INFO: 2025/01/02 13:57:19 main.go:15: DB Initiated
+INFO: 2025/01/02 13:57:21 event.go:31: Working with create event function
+INFO: 2025/01/02 13:57:21 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:02:19 main.go:13: Starting application
+INFO: 2025/01/02 14:02:19 main.go:15: DB Initiated
+INFO: 2025/01/02 14:02:22 event.go:31: Working with create event function
+INFO: 2025/01/02 14:02:22 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:04:18 main.go:13: Starting application
+INFO: 2025/01/02 14:04:18 main.go:15: DB Initiated
+INFO: 2025/01/02 14:04:21 event.go:31: Working with create event function
+INFO: 2025/01/02 14:04:21 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:08:46 main.go:13: Starting application
+INFO: 2025/01/02 14:08:46 main.go:15: DB Initiated
+INFO: 2025/01/02 14:08:50 event.go:31: Working with create event function
+INFO: 2025/01/02 14:08:50 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:09:09 event.go:31: Working with create event function
+INFO: 2025/01/02 14:09:09 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:09:14 event.go:31: Working with create event function
+INFO: 2025/01/02 14:09:14 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:09:24 event.go:31: Working with create event function
+INFO: 2025/01/02 14:09:24 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:20:10 main.go:13: Starting application
+INFO: 2025/01/02 14:20:10 main.go:15: DB Initiated
+INFO: 2025/01/02 14:20:19 event.go:31: Working with create event function
+INFO: 2025/01/02 14:20:19 event.go:37: Running validation on the input data
+INFO: 2025/01/02 14:26:41 main.go:13: Starting application
+INFO: 2025/01/02 14:26:41 main.go:15: DB Initiated
+INFO: 2025/01/02 14:26:45 event.go:31: Working with create event function
+INFO: 2025/01/02 14:26:45 event.go:37: Running validation on the input data
+INFO: 2025/01/02 15:21:08 event.go:31: Working with create event function
+INFO: 2025/01/02 15:21:08 event.go:37: Running validation on the input data
+INFO: 2025/01/02 15:21:08 event.go:53: Event created successfully
+INFO: 2025/01/02 15:31:02 main.go:13: Starting application
+INFO: 2025/01/02 15:31:02 main.go:15: DB Initiated
+ERROR: 2025/01/02 15:31:07 user.go:86: User not found! no such table: users
+INFO: 2025/01/02 15:32:01 user.go:26: Working with create user function
+INFO: 2025/01/02 15:32:02 user.go:44: User created successfully
+INFO: 2025/01/02 15:32:29 main.go:13: Starting application
+INFO: 2025/01/02 15:32:29 main.go:15: DB Initiated
+INFO: 2025/01/02 15:32:32 user.go:26: Working with create user function
+INFO: 2025/01/02 15:32:50 user.go:26: Working with create user function
+INFO: 2025/01/02 15:33:03 user.go:26: Working with create user function
+INFO: 2025/01/02 15:33:04 user.go:45: User created successfully
